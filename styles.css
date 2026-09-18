@@ -125,6 +125,12 @@ blockquote { margin: 16px 0 30px; font-family: Georgia, serif; font-size: clamp(
 .site-footer p { margin: 4px 0 0; color: var(--cp-text-muted); font-size: .88rem; }
 .site-footer a { color: var(--cp-link); font-weight: 700; text-decoration: none; }
 .site-footer a:hover { text-decoration: underline; }
+.legal-content { max-width: 800px; }
+.legal-content h1 { margin-bottom: 10px; }
+.legal-content h2 { margin-top: 42px; font-size: clamp(1.4rem, 2.5vw, 2rem); }
+.legal-content p { color: var(--cp-text-muted); }
+.legal-content a { color: var(--cp-link); font-weight: 700; }
+.legal-updated, .legal-source { font-size: .9rem; }
 @media (max-width: 820px) {
   .hero-grid, .two-column, .values-grid, .principle-inner { grid-template-columns: 1fr; gap: 32px; }
   .hero { padding: 64px 0; }
