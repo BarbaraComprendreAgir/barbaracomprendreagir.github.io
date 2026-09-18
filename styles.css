@@ -108,6 +108,7 @@ blockquote { margin: 16px 0 30px; font-family: Georgia, serif; font-size: clamp(
 .tag-list { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 28px; }
 .tag-list span, .values-list span { padding: 8px 12px; border-radius: .625rem; background: var(--cp-accent-soft); color: var(--cp-text); font-size: .9rem; font-weight: 650; }
 .pricing-list { margin: 28px 0 0; }
+.pricing-note { margin: 0; color: var(--cp-text-muted); font-size: .9rem; }
 .pricing-list div { display: flex; justify-content: space-between; gap: 20px; padding: 15px 0; border-bottom: 1px solid var(--cp-border); }
 .pricing-list div:last-child { border-bottom: 0; }
 .pricing-list dt { color: var(--cp-text-muted); }
