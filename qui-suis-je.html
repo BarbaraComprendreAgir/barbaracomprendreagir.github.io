@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Découvrez le parcours et l'approche de Barbara Lacouturière."
+    />
+    <title>Qui suis-je ? | Barbara Lacouturière</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <script>
+      (() => {
+        const param = new URLSearchParams(window.location.search).get("scoutTheme");
+        const theme =
+          param || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="Accueil Barbara Lacouturière">
+          <span class="brand-mark" aria-hidden="true">✦</span>
+          <span>
+            <strong>Barbara Lacouturière</strong>
+            <small>Comprendre - Grandir - Agir</small>
+          </span>
+        </a>
+        <a class="button button-small" href="index.html">Retour à l’accueil</a>
+      </div>
+    </header>
+
+    <main id="contenu">
+      <section class="section">
+        <div class="container bio-content">
+          <div class="bio-intro">
+            <figure class="bio-portrait">
+              <img
+                src="images/barbara.jpg"
+                alt="Barbara Lacouturière"
+                width="1284"
+                height="1709"
+              />
+            </figure>
+            <div class="bio-intro-copy">
+              <p class="eyebrow">Qui suis-je ?</p>
+              <h1>Barbara Lacouturière</h1>
+              <p>
+                J'accompagne des enfants, des adolescents et leurs familles dans le développement
+                des compétences sociales, émotionnelles et adaptatives. Mon expérience auprès de
+                jeunes présentant un trouble du spectre de l'autisme (TSA), un TDAH ou d'autres
+                particularités du neurodéveloppement m'a permis de développer une approche
+                individualisée, centrée sur les besoins, les forces et les objectifs de chacun.
+              </p>
+              <p>
+                Je suis convaincue que chaque personne possède des ressources sur lesquelles
+                s'appuyer pour progresser et s'épanouir. Mon rôle est de l'aider à mieux comprendre
+                son fonctionnement, à développer ses compétences et à gagner en confiance afin de
+                devenir actrice de son parcours.
+              </p>
+            </div>
+          </div>
+          <p>
+            Dans ma pratique, j'accorde une place essentielle à la collaboration avec les familles.
+            Les parents sont les premiers partenaires de l'accompagnement, et je veille à construire
+            avec eux des stratégies concrètes pouvant être réinvesties dans le quotidien.
+          </p>
+          <p>
+            J'attache une importance particulière à la connaissance de soi, à l'autonomie, à
+            l'autodétermination, aux habiletés sociales et au développement du pouvoir d'agir. Mes
+            accompagnements s'appuient sur les centres d'intérêt, les ressources et le rythme de
+            chaque personne, dans un cadre bienveillant, structurant et respectueux.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <strong>Barbara Lacouturière</strong>
+          <p>Éducatrice spécialisée · Accompagnement psychopédagogique</p>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Retour à l’accueil</a>
+          <a href="mentions-legales.html">Mentions légales</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
